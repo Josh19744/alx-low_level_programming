@@ -5,10 +5,10 @@
  *Return: return 0
  */
 int main(void)
-  char i;
 {
-  for (i = 'a': i <= 'z' : i++)
-putchar('i');
+char c;
+for (c = 'a'; c <= 'z' ; c++)
+putchar('c');
 putchar('\n');
 return (0);
 }
