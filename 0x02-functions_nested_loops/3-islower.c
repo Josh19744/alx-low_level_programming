@@ -1,13 +1,20 @@
 #include "main.h"
 /**
  *_islower - check for lowercase character
- *@c: character to be checked then return
- *Return: 0 0r 1
+ *
+ *Description: use _putchar to print
+ *@c: collect alphabet
+ *Return: 1 if c is lower otherwise 0
  */
 int _islower(int c)
 {
-if (c >= 'a' && c <= 'z')
-return (1);
-else
-return (0);
+char i;
+for (i = 'a'; i <= 'z'; i++)
+{
+if (i == c)
+{
+lower = 1
+}
+}
+return (lower);
 }
