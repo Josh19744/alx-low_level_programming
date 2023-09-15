@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - func prints the numbers from 1-100, but multiple of three
@@ -13,7 +14,7 @@ for (num = 1; num <= 100; num++)
 if ((num % 3) == 0 && (num % 5) == 0)
 printf("FizzBuzz");
 else if ((num % 3) == 0)
-print("Fizz");
+printf("Fizz");
 else if ((num % 5) == 0)
 printf("Buzz");
 else
