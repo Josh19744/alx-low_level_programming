@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * _strlen - returns the length of a string
- * @str: The string to get the length of string
- * Return: he length of @str.
+ * @s: The string to get the length of string
+ * Return: he length of @s.
  */
 int _strlen(char *s)
 {
