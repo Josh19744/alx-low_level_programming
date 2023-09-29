@@ -2,7 +2,7 @@
 /**
  * _pow_recursion - returns the value of x raised to the power of y.
  * @x: the value to multiply
- * #y: the times to pultiply thev value 
+ * @y: the times to pultiply thev value
  * Return: the value multiplied by y
  */
 int _pow_recursion(int x, int y)
