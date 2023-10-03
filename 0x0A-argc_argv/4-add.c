@@ -4,7 +4,7 @@
 /**
  * main - add positive number
  * @argc: number of command line
- * @argv: array that contains the program command 
+ * @argv: array that contains the program command
  * Return: 0
  */
 int main(int argc, char *argv[])
