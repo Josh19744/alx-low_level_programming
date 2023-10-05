@@ -20,7 +20,7 @@ while (av[i][j])
 ch++;
 j++;
 }
-i = 0;
+j = 0;
 i++;
 }
 s = malloc((sizeof(char) * ch) +ac + 1);
@@ -36,7 +36,7 @@ j++;
 s[k] = '\n';
 j = 0;
 k++;
-j++;
+i++;
 }
 k++;
 s[k] = '\0';
