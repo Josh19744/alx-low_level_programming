@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - func finds an prints the largest prime factor of the number 612852475143
@@ -19,6 +20,6 @@ if ((prime % divisor) == 0)
 prime /= divisor;
 }
 }
-printf("%d\n", prime);
+printf("%1d\n", prime);
 return (0);
 }
